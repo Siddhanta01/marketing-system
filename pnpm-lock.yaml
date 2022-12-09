@@ -4,11 +4,13 @@ specifiers:
   next: 13.0.6
   react: 18.2.0
   react-dom: 18.2.0
+  request-ip: ^3.3.0
 
 dependencies:
   next: 13.0.6_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  request-ip: 3.3.0
 
 packages:
 
@@ -236,6 +238,10 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
+    dev: false
+
+  /request-ip/3.3.0:
+    resolution: {integrity: sha512-cA6Xh6e0fDBBBwH77SLJaJPBmD3nWVAcF9/XAcsrIHdjhFzFiB5aNQFytdjCGPezU3ROwrR11IddKAM08vohxA==}
     dev: false
 
   /scheduler/0.23.0:
